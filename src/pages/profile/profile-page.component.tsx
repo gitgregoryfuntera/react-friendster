@@ -6,8 +6,10 @@ import classes from "./profile-page.module.scss";
 const ProfilePage = () => {
   return (
     <div>
-      <ProfileHeroBanner />
-      <ProfilePicture />
+      <div className={classes["profileHeaderContainer"]}>
+        <ProfileHeroBanner />
+        <ProfilePicture />
+      </div>
       Profile Page
     </div>
   );

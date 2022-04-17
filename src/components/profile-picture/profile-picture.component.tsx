@@ -1,13 +1,12 @@
-import React from 'react';
-import classes from './profile-picture.module.scss';
+import React from "react";
+import classes from "./profile-picture.module.scss";
 
 const ProfilePicture = () => {
-    return (
-        <div>
-            ProfilePicture works
-        </div>
-    );
-
+  return (
+    <div className={classes["profilePictureContainer"]}>
+      <img src="http://www.placecage.com/250/250" width="100" />
+    </div>
+  );
 };
 
 export default ProfilePicture;
