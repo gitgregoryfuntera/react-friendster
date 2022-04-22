@@ -1,8 +1,10 @@
 .profilePictureContainer {
   position: absolute;
-  top: 70%;
   left: 5%;
+  transform: translate(0, -45%);
+  width: 6.25rem;
   img {
     border: 10px solid white;
+    width: 100%;
   }
 }

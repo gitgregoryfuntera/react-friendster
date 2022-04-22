@@ -4,7 +4,7 @@ import classes from "./profile-picture.module.scss";
 const ProfilePicture = () => {
   return (
     <div className={classes["profilePictureContainer"]}>
-      <img src="http://www.placecage.com/250/250" width="100" />
+      <img src="http://www.placecage.com/250/250"/>
     </div>
   );
 };

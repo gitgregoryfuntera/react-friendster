@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileHeroBanner from "../../components/profile-hero-banner/profile-hero-banner.component";
 import ProfilePicture from "../../components/profile-picture/profile-picture.component";
+import ProfileShoutOut from "../../components/profile-shout-out/profile-shout-out.component";
 import classes from "./profile-page.module.scss";
 
 const ProfilePage = () => {
@@ -9,6 +10,7 @@ const ProfilePage = () => {
       <div className={classes["profileHeaderContainer"]}>
         <ProfileHeroBanner />
         <ProfilePicture />
+        <ProfileShoutOut />
       </div>
       Profile Page
     </div>
