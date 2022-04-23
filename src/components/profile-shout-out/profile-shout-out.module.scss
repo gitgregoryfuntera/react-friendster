@@ -1,7 +1,10 @@
+@use "../../styles/media-queries.scss" as *;
+
 .shoutOutContainer {
-  position: absolute;
-  left: 45%;
-  transform: translate(0, -170%);
+  transform: translate(0, -140%);
+  position: relative;
+  left: 47%;
+  width: 9.375rem;
   .shoutOut {
     width: 9.375rem;
     position: relative;
@@ -27,5 +30,17 @@
     border-left: 0;
     margin-top: -0.781em;
     margin-left: -0.781em;
+  }
+
+  @include phoneLandscape {
+    left: 30%;
+  }
+
+  @include tablet {
+    left: 25%;
+  }
+
+  @include laptop {
+    left: 20%;
   }
 }

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Routes, Route, Link } from "react-router-dom";
 import ProfilePage from "./pages/profile/profile-page.component";
 
