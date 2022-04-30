@@ -2,5 +2,19 @@
   position: absolute;
   border: 1px solid black;
   width: 100%;
-  transform: translate(0, -365%);
+  transform: translate(0, -130%);
+  .detailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .spacer {
+      width: 115px;
+      height: 60px;
+    }
+    .details {
+      display: flex;
+      width: 60%;
+      overflow-x: auto;
+    }
+  }
 }
