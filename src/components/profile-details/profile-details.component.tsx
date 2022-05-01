@@ -7,15 +7,15 @@ const ProfileDetails = () => {
       <div className={classes["detailsContainer"]}>
         <div className={classes["spacer"]}></div>
         <div className={classes["details"]}>
-          <div>
+          <div className={classes["item"]}>
             <h4>Name</h4>
             <p>John Doe</p>
           </div>
-          <div>
+          <div className={classes["item"]}>
             <h4>Name</h4>
             <p>John Doe</p>
           </div>
-          <div>
+          <div className={classes["item"]}>
             <h4>Name</h4>
             <p>John Doe</p>
           </div>
