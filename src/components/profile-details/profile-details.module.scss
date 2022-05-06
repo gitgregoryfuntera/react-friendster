@@ -15,8 +15,9 @@
     }
     .details {
       display: flex;
-      width: 60%;
+      width: 54%;
       overflow-x: auto;
+      margin-left: 1.875rem;
       .item {
         margin-right: 1rem;
         p {
@@ -35,6 +36,10 @@
     .detailsContainer {
       .spacer {
         width: 8rem;
+      }
+
+      .details {
+        width: 70%;
       }
     }
   }
