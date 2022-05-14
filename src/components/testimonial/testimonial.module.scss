@@ -1,0 +1,25 @@
+.testimonialContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .imageContainer {
+    img {
+      border-radius: 60px;
+    }
+  }
+  .textContainer {
+    width: 500px;
+    padding-inline: 1rem;
+    .textHeader {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .textContent {
+      text-align: justify;
+      padding-top: 1rem;
+    }
+  }
+}

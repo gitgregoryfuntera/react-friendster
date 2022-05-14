@@ -9,6 +9,9 @@ const Testimonials = () => {
         </div>
         <div>
             <Testimonial/>
+            <Testimonial/>
+            <Testimonial/>
+            <Testimonial/>
         </div>
     </div>
 }
