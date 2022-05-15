@@ -4,6 +4,7 @@ import ProfileHeroBanner from "../../components/profile-hero-banner/profile-hero
 import ProfilePicture from "../../components/profile-picture/profile-picture.component";
 import ProfileShoutOut from "../../components/profile-shout-out/profile-shout-out.component";
 import Testimonials from "../../components/testimonials/testimonials.component";
+import UserConnections from "../../components/user-connections/user-connections.component";
 import classes from "./profile-page.module.scss";
 
 const ProfilePage = () => {
@@ -16,7 +17,12 @@ const ProfilePage = () => {
         <ProfileDetails />
       </div>
       <div>
-        <Testimonials />
+        <div>
+          <Testimonials />
+        </div>
+        <div>
+          <UserConnections />
+        </div>
       </div>
     </div>
   );
