@@ -6,7 +6,7 @@ const Testimonial = () => {
     <>
       <div className={classes.testimonialContainer}>
         <div className={classes.imageContainer}>
-          <img src="http://www.placecage.com/250/250" height="100"/>
+          <img src="http://www.placecage.com/250/250" height="80"/>
         </div>
         <div className={classes.textContainer}>
           <div className={classes.textHeader}>

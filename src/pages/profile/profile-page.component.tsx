@@ -10,17 +10,17 @@ import classes from "./profile-page.module.scss";
 const ProfilePage = () => {
   return (
     <div className="pageLayout">
-      <div className={classes["profileHeaderContainer"]}>
+      <div className={classes.profileHeaderContainer}>
         <ProfileHeroBanner />
         <ProfilePicture />
         <ProfileShoutOut />
         <ProfileDetails />
       </div>
-      <div>
-        <div>
+      <div className={classes.mainContentContainer}>
+        <div className={classes.testimonialsContainer}>
           <Testimonials />
         </div>
-        <div>
+        <div className={classes.userConnectionsContainer}>
           <UserConnections />
         </div>
       </div>
