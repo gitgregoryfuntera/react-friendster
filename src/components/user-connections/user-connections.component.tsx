@@ -14,6 +14,7 @@ const UserConnections = () => {
         <UserConnectionImage />
         <UserConnectionImage />
         <UserConnectionImage />
+        <UserConnectionImage />
       </div>
     </div>
   );
