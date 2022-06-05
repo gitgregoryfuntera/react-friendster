@@ -1,0 +1,29 @@
+@use "../../styles/font-sizes" as fontSize;
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logoContainer {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        h1 {
+            padding: 1rem;
+            font-size: fontSize.$large;
+        }
+        span {
+            position: relative;
+            padding: 0.5rem;
+            #logo {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .navActionsContainer {}
+}
