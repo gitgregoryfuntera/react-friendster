@@ -1,6 +1,6 @@
 import React from 'react';
-import Testimonial from '../testimonial/testimonial.component';
-import classes from './testimonials.module.scss';
+import Testimonial from '../Testimonial';
+import classes from './styles.module.scss';
 
 const Testimonials = () => {
     return <div className={classes.testimonialsContainer}>

@@ -1,6 +1,6 @@
 import React from "react";
-import UserConnectionImage from "../user-connection-image/user-connection-image.component";
-import classes from "./user-connections.module.scss";
+import UserConnectionImage from "../UserConnectionImage";
+import classes from "./styles.module.scss";
 const UserConnections = () => {
   return (
     <div className={classes.userConnectionsContainer}>

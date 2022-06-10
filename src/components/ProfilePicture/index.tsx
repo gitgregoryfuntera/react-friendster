@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./profile-picture.module.scss";
+import classes from "./styles.module.scss";
 
 const ProfilePicture = () => {
   return (

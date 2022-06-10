@@ -1,8 +1,13 @@
 @use "../../styles/font-sizes" as fontSize;
+@use "../../styles/colors.scss" as colors;
 .navigationContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background: colors.$neutralWhite;
     .logoContainer {
         cursor: pointer;
         display: flex;

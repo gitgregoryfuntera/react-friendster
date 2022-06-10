@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./testimonial.module.scss";
+import classes from "./styles.module.scss";
 
 const Testimonial = () => {
   return (

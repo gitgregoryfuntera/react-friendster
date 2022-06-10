@@ -1,11 +1,11 @@
 import React from "react";
-import ProfileDetails from "../../components/profile-details/profile-details.component";
-import ProfileHeroBanner from "../../components/profile-hero-banner/profile-hero-banner.component";
-import ProfilePicture from "../../components/profile-picture/profile-picture.component";
-import ProfileShoutOut from "../../components/profile-shout-out/profile-shout-out.component";
-import Testimonials from "../../components/testimonials/testimonials.component";
-import UserConnections from "../../components/user-connections/user-connections.component";
-import classes from "./profile-page.module.scss";
+import ProfileDetails from "../../components/ProfileDetails";
+import ProfileHeroBanner from "../../components/ProfileHeroBanner";
+import ProfilePicture from "../../components/ProfilePicture";
+import ProfileShoutOut from "../../components/ProfileShoutOut";
+import Testimonials from "../../components/Testimonials";
+import UserConnections from "../../components/UserConnections";
+import classes from "./styles.module.scss";
 
 const ProfilePage = () => {
   return (
