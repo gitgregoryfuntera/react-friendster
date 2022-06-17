@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./profile-hero-banner.module.scss";
 
 const ProfileHeroBanner = () => {
   return (

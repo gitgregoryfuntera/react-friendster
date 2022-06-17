@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import ProfilePage from "./pages/Profile";

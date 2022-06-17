@@ -1,16 +1,23 @@
 import React, { useState } from "react";
 import classes from "./styles.module.scss";
 import { FaUserFriends, FaBars } from "react-icons/fa";
+import NavHeaderModal from "./NavHeaderModal";
 const MobileNavHeader = () => {
-  const [isMenuExpanded , setIsMenuExpanded] = useState(false);
+  const [isNavHeaderModalOpen, setIsNavHeaderModalOpen] = useState(false);
 
   const toggleMenu = () => {
-    if (!isMenuExpanded) {
-      setIsMenuExpanded(true);
-      console.log("🚀 ~ file: MobileNavHeader.tsx ~ line 10 ~ toggleMenu ~ isMenuExpanded", isMenuExpanded);
+    if (!isNavHeaderModalOpen) {
+      setIsNavHeaderModalOpen(true);
+      console.log(
+        "🚀 ~ file: MobileNavHeader.tsx ~ line 10 ~ toggleMenu ~ isMenuExpanded",
+        isNavHeaderModalOpen
+      );
     } else {
-      setIsMenuExpanded(false);
-      console.log("🚀 ~ file: MobileNavHeader.tsx ~ line 13 ~ toggleMenu ~ isMenuExpanded", isMenuExpanded);
+      setIsNavHeaderModalOpen(false);
+      console.log(
+        "🚀 ~ file: MobileNavHeader.tsx ~ line 13 ~ toggleMenu ~ isMenuExpanded",
+        isNavHeaderModalOpen
+      );
     }
   };
   return (
@@ -25,6 +32,7 @@ const MobileNavHeader = () => {
           <FaBars size={30} />
         </button>
       </div>
+      <NavHeaderModal show={isNavHeaderModalOpen} toggleMenu={toggleMenu} />
     </>
   );
 };
