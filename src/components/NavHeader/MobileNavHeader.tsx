@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classes from "./styles.module.scss";
 import { FaUserFriends, FaBars } from "react-icons/fa";
 import NavHeaderModal from "./NavHeaderModal";
+import CustomButton from "../CustomButton";
 const MobileNavHeader = () => {
   const [isNavHeaderModalOpen, setIsNavHeaderModalOpen] = useState(false);
 
@@ -28,9 +29,9 @@ const MobileNavHeader = () => {
         </div>
       </div>
       <div className={classes.navActionContainerMobile}>
-        <button type="button" onClick={toggleMenu}>
+        <CustomButton onClick={toggleMenu}>
           <FaBars size={30} />
-        </button>
+        </CustomButton>
       </div>
       <NavHeaderModal show={isNavHeaderModalOpen} toggleMenu={toggleMenu} />
     </>
